@@ -3,7 +3,7 @@ const min = document.querySelector('#min');
 const sec = document.querySelector('#sec');
 
 setInterval(() => {
-    let date = new DataView();
+    let date = new Date();
     let hours = date.getHours();
     let minutes = date.getMinutes();
     let seconds = date.getSeconds();
